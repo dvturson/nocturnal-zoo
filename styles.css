@@ -82,6 +82,16 @@ a {
     display: block;
 }
 
+@media (min-width: 40rem) {
+    .nav-toggle {
+        display: none;
+    }
+
+    .site-nav ul {
+        display: block;
+    }
+}
+
 
 /* ===== Dark mode (Role C) ===== */
 
