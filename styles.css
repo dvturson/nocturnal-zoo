@@ -74,7 +74,13 @@ a {
 
 
 /* ===== Navigation menu (Role B) ===== */
+.site-nav ul {
+    display: none;
+}
 
+.site-nav ul.open {
+    display: block;
+}
 
 
 /* ===== Dark mode (Role C) ===== */
